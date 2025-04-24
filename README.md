@@ -2,7 +2,7 @@
 
 [中文版](README_CN.md)
 
-A Tampermonkey userscript that forces Google Gemini (`https://gemini.google.com/`) to always use light mode theme.
+A Tampermonkey userscript that forces [Google Gemini](https://gemini.google.com/) to always use light mode theme.
 
 ## Description
 

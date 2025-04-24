@@ -2,7 +2,7 @@
 
 [English Version](README_EN.md)
 
-一个 Tampermonkey 用户脚本，用于强制 Google Gemini (`https://gemini.google.com/`) 始终使用亮色主题。
+一个 Tampermonkey 用户脚本，用于强制 [Google Gemini](https://gemini.google.com/) 始终使用亮色主题。
 
 ## 简介
 
