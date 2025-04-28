@@ -2,7 +2,7 @@
 
 [English Version](README_EN.md)
 
-一个 Tampermonkey 用户脚本，用于强制 [Google Gemini](https://gemini.google.com/) 始终使用亮色主题。
+一个 Violentmonkey 用户脚本，用于强制 [Google Gemini](https://gemini.google.com/) 始终使用亮色主题。
 
 ## 简介
 
@@ -37,13 +37,13 @@ Google Gemini 通常会跟随系统主题偏好或用户之前的选择。本脚
 
 1. **安装 Tampermonkey**:
 
-   - Chrome: [Tampermonkey 应用商店](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)
-   - Firefox: [Tampermonkey 扩展](https://addons.mozilla.org/firefox/addon/tampermonkey/)
-   - Edge: [Tampermonkey 微软商店](https://microsoftedge.microsoft.com/addons/detail/tampermonkey/iinmkddhdlojikpfnpnppnbhicjjldce)
+   - Chrome: [Violentmonkey Web Store](https://chrome.google.com/webstore/detail/violentmonkey/jinjaccalgkegednnccohejagnlnfdag)
+   - Firefox: [Violentmonkey Add-ons](https://addons.mozilla.org/firefox/addon/violentmonkey)
+   - Edge: [Violentmonkey Microsoft Store](https://microsoftedge.microsoft.com/addons/detail/violentmonkey/eeagobfjdenkkddmbclomhiblgggliao)
 
 2. **安装脚本**:
 
-   - 打开 Tampermonkey 控制面板
+   - 打开 Violentmonkey 控制面板
    - 点击"创建新脚本"
    - 复制 `gemini_light_mode.user.js` 的全部内容
    - 粘贴到编辑器中（覆盖默认内容）
@@ -52,7 +52,7 @@ Google Gemini 通常会跟随系统主题偏好或用户之前的选择。本脚
 3. **验证安装**:
    - 访问 [Gemini](https://gemini.google.com/)
    - 页面现在应始终以亮色模式加载
-   - 检查 Tampermonkey 控制面板确认脚本已启用
+   - 检查 Violentmonkey 控制面板确认脚本已启用
 
 ## ⚙️ 技术细节
 
@@ -94,7 +94,7 @@ Google Gemini 通常会跟随系统主题偏好或用户之前的选择。本脚
 
 2. **脚本不工作**:
 
-   - 确认 Tampermonkey 已启用
+   - 确认 Violentmonkey 已启用
    - 检查脚本在 gemini.google.com 是否激活
    - 清除缓存并强制刷新 (Ctrl+F5)
 

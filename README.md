@@ -2,7 +2,7 @@
 
 [中文版](README_CN.md)
 
-A Tampermonkey userscript that forces [Google Gemini](https://gemini.google.com/) to always use light mode theme.
+A Violentmonkey userscript that forces [Google Gemini](https://gemini.google.com/) to always use light mode theme.
 
 ## Description
 
@@ -35,15 +35,15 @@ Google Gemini normally follows your system theme preference or previous selectio
 
 ## 🚀 Installation
 
-1. **Install Tampermonkey**:
+1. **Install Violentmonkey **:
 
-   - Chrome: [Tampermonkey Web Store](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)
-   - Firefox: [Tampermonkey Add-ons](https://addons.mozilla.org/firefox/addon/tampermonkey/)
-   - Edge: [Tampermonkey Microsoft Store](https://microsoftedge.microsoft.com/addons/detail/tampermonkey/iinmkddhdlojikpfnpnppnbhicjjldce)
+   - Chrome: [Violentmonkey Web Store](https://chrome.google.com/webstore/detail/violentmonkey/jinjaccalgkegednnccohejagnlnfdag)
+   - Firefox: [Violentmonkey Add-ons](https://addons.mozilla.org/firefox/addon/violentmonkey)
+   - Edge: [Violentmonkey Microsoft Store](https://microsoftedge.microsoft.com/addons/detail/violentmonkey/eeagobfjdenkkddmbclomhiblgggliao)
 
 2. **Install the Script**:
 
-   - Open Tampermonkey dashboard
+   - Open Violentmonkey dashboard
    - Click "Create a new script"
    - Copy the entire content of `gemini_light_mode.user.js`
    - Paste into the editor (overwriting default content)
@@ -52,7 +52,7 @@ Google Gemini normally follows your system theme preference or previous selectio
 3. **Verify Installation**:
    - Visit [Gemini](https://gemini.google.com/)
    - The page should now always load in light mode
-   - Check Tampermonkey dashboard to confirm script is enabled
+   - Check Violentmonkey dashboard to confirm script is enabled
 
 ## ⚙️ Technical Details
 
@@ -94,7 +94,7 @@ The script maintains light theme by:
 
 2. **Not working**:
 
-   - Verify Tampermonkey is enabled
+   - Verify Violentmonkey is enabled
    - Check script is active on gemini.google.com
    - Clear cache and hard reload (Ctrl+F5)
 
