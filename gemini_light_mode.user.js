@@ -26,7 +26,6 @@
             --gem-sys-color--on-surface-variant: #444746 !important; /* Dark color for secondary text/icons */
             --gem-sys-color--primary: #0b57d0 !important;
             --gem-sys-color--on-primary-container: #0842a0 !important;
-            --bard-color-sidenav-background: var(--gem-sys-color--surface-container-low, #f8fafd) !important;
             --bard-color-new-conversation-button: var(--gem-sys-color--surface-container-high, #e9eef6) !important;
             --bard-color-on-new-conversation-button: var(--gem-sys-color--on-surface-variant, #444746) !important;
             --bard-color-onhover-conversation-metadata-button-v2: var(--gem-sys-color--surface-container-high, #e9eef6) !important;
