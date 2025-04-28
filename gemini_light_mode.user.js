@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Gemini Light Mode
 // @namespace    http://tampermonkey.net/
-// @version      0.1
+// @version      0.2
 // @description  Forces light mode on gemini.google.com, including sidebar, top bar, model selector, and input area elements.
 // @author       Eyozy
 // @match        https://gemini.google.com/*
